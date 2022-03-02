@@ -5,10 +5,10 @@ function App() {
     return (
         <div className="App">
             {/* set initial value of state without using setState instead using function*/}
-            {/* <SetStateUsingFun /> */}
+            <SetStateUsingFun />
 
             {/* UseMemo */}
-            <UseMemo />
+            {/* <UseMemo /> */}
         </div>
     );
 }

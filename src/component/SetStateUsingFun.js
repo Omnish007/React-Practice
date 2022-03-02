@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 
 const SetStateUsingFun = () => {
-    let [first] = useState();
+    let [first] = useState(() => {
+        const ok = "lol";
+        return ok;
+    });
 
-    const lol = () => {
-        first = "lol";
-    };
-    lol();
     console.log(first);
     return <div>SetStateUsingFun</div>;
 };
